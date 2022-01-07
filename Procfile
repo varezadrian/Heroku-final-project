@@ -1,0 +1,1 @@
+web: gunicorn FinalProject_14_Visdat:app --log-file -
