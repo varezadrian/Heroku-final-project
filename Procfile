@@ -1,1 +1,2 @@
-web: gunicorn FinalProject_14_Visdat:app --log-file -
+web: bokeh serve --port=$PORT --allow-websocketorigin=myapp.herokuapp.com --address=0.0.0.0 --use-xheaders
+myapp.py
